@@ -1,0 +1,141 @@
+{
+    "courses": [
+        {
+            "id": "M001",
+            "name": "数学分析",
+            "prerequisites": [],
+            "level": 0
+        },
+        {
+            "id": "M002",
+            "name": "高等代数",
+            "prerequisites": [],
+            "level": 0
+        },
+        {
+            "id": "M003",
+            "name": "几何学",
+            "prerequisites": [],
+            "level": 0
+        },
+        {
+            "id": "M004",
+            "name": "概率论",
+            "prerequisites": [
+                "M001"
+            ],
+            "level": 1
+        },
+        {
+            "id": "M005",
+            "name": "数论",
+            "prerequisites": [
+                "M001",
+                "M002"
+            ],
+            "level": 1
+        },
+        {
+            "id": "M006",
+            "name": "实变函数",
+            "prerequisites": [
+                "M001"
+            ],
+            "level": 1
+        },
+        {
+            "id": "M007",
+            "name": "泛函分析",
+            "prerequisites": [
+                "M002",
+                "M006"
+            ],
+            "level": 2
+        },
+        {
+            "id": "M008",
+            "name": "复变函数",
+            "prerequisites": [
+                "M001",
+                "M006"
+            ],
+            "level": 2
+        },
+        {
+            "id": "M009",
+            "name": "微分几何",
+            "prerequisites": [
+                "M001",
+                "M002",
+                "M003"
+            ],
+            "level": 1
+        },
+        {
+            "id": "M010",
+            "name": "抽象代数",
+            "prerequisites": [
+                "M002"
+            ],
+            "level": 1
+        },
+        {
+            "id": "M011",
+            "name": "数理统计",
+            "prerequisites": [
+                "M004"
+            ],
+            "level": 2
+        },
+        {
+            "id": "M012",
+            "name": "拓扑学",
+            "prerequisites": [
+                "M001",
+                "M002",
+                "M006"
+            ],
+            "level": 2
+        },
+        {
+            "id": "M013",
+            "name": "偏微分方程",
+            "prerequisites": [
+                "M006",
+                "M008"
+            ],
+            "level": 3
+        },
+        {
+            "id": "M014",
+            "name": "代数拓扑",
+            "prerequisites": [
+                "M010",
+                "M012"
+            ],
+            "level": 3
+        },
+        {
+            "id": "M015",
+            "name": "微分拓扑",
+            "prerequisites": [
+                "M009",
+                "M012"
+            ],
+            "level": 3
+        },
+        {
+            "id": "M016",
+            "name": "调和分析",
+            "prerequisites": [
+                "M007",
+                "M008"
+            ],
+            "level": 3
+        }
+    ],
+    "completed_courses": [
+        "M002",
+        "M001"
+    ]
+}

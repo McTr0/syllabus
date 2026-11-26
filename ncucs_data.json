@@ -1,0 +1,313 @@
+{
+    "courses": [
+        {
+            "id": "C001",
+            "name": "计算机导论",
+            "prerequisites": [],
+            "level": 0
+        },
+        {
+            "id": "C002",
+            "name": "微积分",
+            "prerequisites": [],
+            "level": 0
+        },
+        {
+            "id": "C003",
+            "name": "线性代数",
+            "prerequisites": [],
+            "level": 0
+        },
+        {
+            "id": "C004",
+            "name": "离散数学",
+            "prerequisites": [],
+            "level": 0
+        },
+        {
+            "id": "C009",
+            "name": "C语言程序设计",
+            "prerequisites": [
+                "C001"
+            ],
+            "level": 1
+        },
+        {
+            "id": "C017",
+            "name": "Java程序设计",
+            "prerequisites": [
+                "C001"
+            ],
+            "level": 1
+        },
+        {
+            "id": "C025",
+            "name": "Python程序设计",
+            "prerequisites": [
+                "C001"
+            ],
+            "level": 1
+        },
+        {
+            "id": "C010",
+            "name": "概率论",
+            "prerequisites": [
+                "C002"
+            ],
+            "level": 1
+        },
+        {
+            "id": "C018",
+            "name": "数值分析",
+            "prerequisites": [
+                "C002",
+                "C003"
+            ],
+            "level": 1
+        },
+        {
+            "id": "C012",
+            "name": "数字逻辑",
+            "prerequisites": [
+                "C004"
+            ],
+            "level": 1
+        },
+        {
+            "id": "C033",
+            "name": "数据结构与算法",
+            "prerequisites": [
+                "C009"
+            ],
+            "level": 2
+        },
+        {
+            "id": "C020",
+            "name": "计算机组织结构",
+            "prerequisites": [
+                "C012"
+            ],
+            "level": 2
+        },
+        {
+            "id": "C026",
+            "name": "信息论",
+            "prerequisites": [
+                "C010"
+            ],
+            "level": 2
+        },
+        {
+            "id": "C041",
+            "name": "面向对象程序设计",
+            "prerequisites": [
+                "C017"
+            ],
+            "level": 2
+        },
+        {
+            "id": "C049",
+            "name": "Web前端开发",
+            "prerequisites": [
+                "C025"
+            ],
+            "level": 2
+        },
+        {
+            "id": "C028",
+            "name": "操作系统",
+            "prerequisites": [
+                "C020",
+                "C033"
+            ],
+            "level": 3
+        },
+        {
+            "id": "C065",
+            "name": "设计模式",
+            "prerequisites": [
+                "C041"
+            ],
+            "level": 3
+        },
+        {
+            "id": "C036",
+            "name": "计算机网络",
+            "prerequisites": [
+                "C020"
+            ],
+            "level": 3
+        },
+        {
+            "id": "C057",
+            "name": "编译原理",
+            "prerequisites": [
+                "C033"
+            ],
+            "level": 3
+        },
+        {
+            "id": "C073",
+            "name": "数据库原理",
+            "prerequisites": [
+                "C033"
+            ],
+            "level": 3
+        },
+        {
+            "id": "C081",
+            "name": "计算机图形学",
+            "prerequisites": [
+                "C033",
+                "C018"
+            ],
+            "level": 3
+        },
+        {
+            "id": "C034",
+            "name": "机器学习基础",
+            "prerequisites": [
+                "C025",
+                "C026"
+            ],
+            "level": 3
+        },
+        {
+            "id": "C044",
+            "name": "并行与分布式系统",
+            "prerequisites": [
+                "C036",
+                "C028"
+            ],
+            "level": 4
+        },
+        {
+            "id": "C089",
+            "name": "软件工程",
+            "prerequisites": [
+                "C065"
+            ],
+            "level": 4
+        },
+        {
+            "id": "C042",
+            "name": "深度学习",
+            "prerequisites": [
+                "C034"
+            ],
+            "level": 4
+        },
+        {
+            "id": "C052",
+            "name": "信息安全",
+            "prerequisites": [
+                "C036",
+                "C028"
+            ],
+            "level": 4
+        },
+        {
+            "id": "C097",
+            "name": "高级数据库技术",
+            "prerequisites": [
+                "C073"
+            ],
+            "level": 4
+        },
+        {
+            "id": "C105",
+            "name": "全栈Web开发",
+            "prerequisites": [
+                "C073",
+                "C049"
+            ],
+            "level": 4
+        },
+        {
+            "id": "C060",
+            "name": "嵌入式系统",
+            "prerequisites": [
+                "C028"
+            ],
+            "level": 4
+        },
+        {
+            "id": "C068",
+            "name": "云计算技术",
+            "prerequisites": [
+                "C044"
+            ],
+            "level": 5
+        },
+        {
+            "id": "C113",
+            "name": "大数据管理",
+            "prerequisites": [
+                "C097",
+                "C034"
+            ],
+            "level": 5
+        },
+        {
+            "id": "C050",
+            "name": "人工智能应用",
+            "prerequisites": [
+                "C042"
+            ],
+            "level": 5
+        },
+        {
+            "id": "C076",
+            "name": "网络安全",
+            "prerequisites": [
+                "C052"
+            ],
+            "level": 5
+        },
+        {
+            "id": "C121",
+            "name": "微服务架构",
+            "prerequisites": [
+                "C105",
+                "C089"
+            ],
+            "level": 5
+        },
+        {
+            "id": "C129",
+            "name": "大数据分析",
+            "prerequisites": [
+                "C113",
+                "C050"
+            ],
+            "level": 6
+        },
+        {
+            "id": "C058",
+            "name": "智能系统设计",
+            "prerequisites": [
+                "C050",
+                "C060"
+            ],
+            "level": 6
+        },
+        {
+            "id": "C084",
+            "name": "云原生应用开发",
+            "prerequisites": [
+                "C068",
+                "C121"
+            ],
+            "level": 6
+        },
+        {
+            "id": "C100",
+            "name": "高级网络安全",
+            "prerequisites": [
+                "C076"
+            ],
+            "level": 6
+        }
+    ],
+    "completed_courses": []
+}
